@@ -14,7 +14,7 @@
     transform: translate(-50%, -50%);
     width: 10%;
     cursor: pointer;
-    z-index: 100;
+    z-index: 10;
 }
 
 #modal-video-bondi {
@@ -23,7 +23,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 2000;
+    z-index: 30;
     display: none;
 }
 
