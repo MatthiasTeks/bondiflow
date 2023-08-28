@@ -55,3 +55,12 @@
 .schedule-card {
     padding-block: 1em;
 }
+
+.social-links {
+    margin: 1em;
+}
+
+a.social-link img {
+    min-width: 36px;
+    min-height: 36px;
+}
