@@ -21,4 +21,9 @@ gulp.task('minify-css', function () {
         .pipe(gulp.dest('dist/css'));
 });
 
-gulp.task('default', gulp.parallel('minify-js', 'minify-html', 'minify-css'));
+gulp.task('copy-images', function() {
+    return gulp.src('images/**/*')
+        .pipe(gulp.dest('dist/images'));
+});
+
+gulp.task('default', gulp.parallel('minify-js', 'minify-html', 'minify-css', 'copy-images'));
