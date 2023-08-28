@@ -21,8 +21,17 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
-    - name: Run Gulp Tasks
-      run: npx gulp
+    - name: Run PurgeCSS
+      run: npx purgecss --css src/css/*.css --content src/**/*.html --output dist/css/
+
+    - name: Minify JS
+      run: npm run minify:js
+
+    - name: Minify CSS
+      run: npm run minify:css
+
+    - name: Minify HTML
+      run: npm run minify:html
 
     - name: Deploy to Firebase
       uses: w9jds/firebase-action@master
