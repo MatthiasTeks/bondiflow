@@ -34,6 +34,16 @@
     z-index: 2001;
 }
 
+.cross-icon {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    z-index: 2002;
+}
+
 .schedule-callout {
     margin-top: 12px;
 }
@@ -63,4 +73,8 @@
 a.social-link img {
     min-width: 36px;
     min-height: 36px;
+}
+
+#legal-container {
+    color: black;
 }
