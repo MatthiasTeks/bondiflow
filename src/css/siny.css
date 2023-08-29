@@ -108,9 +108,11 @@ a.social-link img {
     cursor: pointer;
 }
 
-.nav-burger.active {
+/* purgecss start ignore */
+.nav-burger .active {
     left: 0;
 }
+/* purgecss end ignore */
 
 .menu-btn {
     cursor: pointer;
