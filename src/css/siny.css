@@ -109,7 +109,7 @@ a.social-link img {
 }
 
 /* purgecss start ignore */
-.nav-burger .active {
+.nav-burger.active {
     left: 0;
 }
 /* purgecss end ignore */
